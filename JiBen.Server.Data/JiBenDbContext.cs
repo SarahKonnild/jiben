@@ -1,4 +1,5 @@
 using JiBen.Server.Data.Models;
+using JiBen.Server.Data.Models.Product;
 using Microsoft.EntityFrameworkCore;
 
 namespace JiBen.Server.Data;
@@ -9,7 +10,9 @@ namespace JiBen.Server.Data;
 public class JiBenDbContext : DbContext
 {
     public DbSet<JiBenSystem> JiBenSystems { get; set; }
-    
+    public DbSet<Product> Products { get; set; }
+    public DbSet<Release> ProductReleases { get; set; }
+
     /// <summary>
     ///     Empty constructor.
     /// </summary>
