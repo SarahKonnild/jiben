@@ -29,8 +29,4 @@
       <ProjectReference Include="..\JiBen.Server.Data\JiBen.Server.Data.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="TestDbs\" />
-    </ItemGroup>
-
 </Project>
