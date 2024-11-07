@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiBen.Client", "JiBen.Client\JiBen.Client.csproj", "{81F61197-2F1C-43E0-86A0-B5CFE37903FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiBen.Server", "JiBen.Server\JiBen.Server.csproj", "{E6B7E63A-F372-4FC7-8740-03E0CCF4A902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F61197-2F1C-43E0-86A0-B5CFE37903FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F61197-2F1C-43E0-86A0-B5CFE37903FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F61197-2F1C-43E0-86A0-B5CFE37903FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F61197-2F1C-43E0-86A0-B5CFE37903FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B7E63A-F372-4FC7-8740-03E0CCF4A902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B7E63A-F372-4FC7-8740-03E0CCF4A902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B7E63A-F372-4FC7-8740-03E0CCF4A902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B7E63A-F372-4FC7-8740-03E0CCF4A902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
