@@ -11,4 +11,8 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\JiBen.Server.Data\JiBen.Server.Data.csproj" />
+    </ItemGroup>
+
 </Project>
